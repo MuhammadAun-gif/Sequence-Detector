@@ -14,14 +14,15 @@ The FSM checks an input bit stream (`w`) on each clock cycle and transitions bet
 
 Below is the RTL (Register Transfer Level) diagram representing the design structure.
 
-![image](https://github.com/user-attachments/assets/5b51d81a-3575-4c07-a487-486ce44e03e7)
+![Screenshot 2024-11-12 003730](https://github.com/user-attachments/assets/efa596fb-e30d-4b5e-9447-f3b500d0c81c)
 
 
 ### FSM State Diagram
 
 The FSM uses the following states to track the pattern sequence:
 
-![image](https://github.com/user-attachments/assets/b29ca5ce-666f-428c-9d72-f0cdd5f98c88)
+
+![Screenshot 2024-11-12 003755](https://github.com/user-attachments/assets/47d4380e-a74c-4725-8a23-1b998f2e7247)
 
 
 - **S0**: Initial state, waiting for the sequence to start.
@@ -49,4 +50,4 @@ You need a Verilog simulator (such as ModelSim, Xilinx Vivado, or Synopsys VCS) 
 Clone the repository to your local machine:
 
 ```bash
-git clone "https://github.com/MuhammadAun-gif/FSM/tree/main/DLD_OEL"
+git clone "https://github.com/MuhammadAun-gif/Sequence-Detector"
