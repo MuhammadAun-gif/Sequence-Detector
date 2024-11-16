@@ -39,6 +39,11 @@ If an unexpected bit is detected, the FSM resets to an earlier state based on th
 - **tb_FSM.sv**: Testbench for the FSM, used to validate the design.
 - **README.md**: Project documentation (this file).
 
+## Tools Used:
+- Quartus Prime Lite: For design and simulation.
+- ModelSim/Questa: For testbench simulation and verification.
+- SystemVerilog: Hardware description language for FSM implementation.
+
 ## Getting Started
 
 ### Prerequisites
